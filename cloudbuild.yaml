@@ -3,3 +3,7 @@ options:
 steps:
   - name: 'bash'
     args: ['-c', 'echo Hello World!']
+  - name: 'bash'
+    args: ['-c', 'cat /etc/os-release']
+  - name: 'bash'
+    args: ['-c', 'hostname']
